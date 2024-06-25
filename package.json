@@ -1,0 +1,26 @@
+{
+  "name": "angular-1-8-2-webpack",
+  "version": "1.0.0",
+  "description": "Angular 1.8.2 with webpack and ui-router",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack serve --mode development",
+    "build": "webpack --mode production"
+  },
+  "dependencies": {
+    "angular": "1.8.2",
+    "@uirouter/angularjs": "1.0.30"
+  },
+  "devDependencies": {
+    "webpack": "5.75.0",
+    "webpack-cli": "4.10.0",
+    "webpack-dev-server": "4.11.1",
+    "html-webpack-plugin": "5.5.0",
+    "html-loader": "4.2.0",
+    "babel-loader": "9.1.2",
+    "@babel/core": "7.20.12",
+    "@babel/preset-env": "7.20.2",
+    "css-loader": "6.7.3",
+    "style-loader": "3.3.1"
+  }
+}
